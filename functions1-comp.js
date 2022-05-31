@@ -68,10 +68,10 @@ console.log(ageToString2);
 // create a boolean variable (to either true or false, your choice)
 // create another variable equal to a string (saying whatever you want) and concatenate the boolean variable to it
 // if you console.log it, the boolean will now be a string
-const partItalian = true;
-let areYouItalian = 'Am I italian? Yes, that is ' + partItalian;
-console.log(areYouItalian);
-// the whole variable areYouItalian has been converted into a string
+const lovesPokemon = true;
+let doYouLovePkmn = 'Do I love pokemon? Yes, that is ' + lovesPokemon;
+// console.log(lovesPokemon, doYouLovePkmn)
+// the whole variable doYouLovePkmn has been converted into a string
 
 
 // String Methods --------------------------------------------------------------------
