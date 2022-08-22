@@ -1,4 +1,4 @@
-// Funcitons 1 Interactive Lecture
+// Functions 1 Interactive Lecture
 
 // Converting to a Boolean --------------------------------------------------------------------
 
@@ -23,12 +23,12 @@ console.log(myStringBoo);
 // if you set the variable to "true", it will console.log as 1
 // if you set the variable to "false", it will console.log as 0
 const iLoveCats = true;
-let catsBoo = Number(iLoveCats);
-console.log(catsBoo);
+let catsNum = Number(iLoveCats);
+console.log(catsNum);
 // will console.log as 1
 
 // create a variable equal to a string of numbers, on the next line convert that string into a number using the Number method shorthand (assign it to another variable)
-// console.log both variables and they should be different colors in the terminal since one is a number and the
+// console.log both variables and they should be different colors in the terminal since one is a number and the other is a string
 let numString = '1234';
 let convertedString = +numString;
 console.log(numString, convertedString);
@@ -158,12 +158,12 @@ const tmnt = ['leonardo', 'rafael', 'michaelangelo', 'donatello'];
 let joinNothing = tmnt.join();
 let joinEmpty = tmnt.join('');
 let joinSpace = tmnt.join(' ');
-let joinComma = tmnt.join(' + ');
+let joinPlus = tmnt.join(' + ');
 
 console.log(joinNothing);
 console.log(joinEmpty);
 console.log(joinSpace);
-console.log(joinComma);
+console.log(joinPlus);
 
 
 // Functions --------------------------------------------------------------------
@@ -210,21 +210,25 @@ scopeTester()
 // Syntaxes --------------------------------------------------------------------
 
 // show an example of each of the 3 function types doing the same block of code
+
+//declaration
 function rooter(num){
     return Math.sqrt(num)
 }
 
+//expression
 const rooter2 = function(num){
     return Math.sqrt(num)
 }
 
+//arrow
 const rooter3 = (num) => {
     return Math.sqrt(num)
 }
 
 console.log(rooter(36))
-console.log(rooter2(36))
-console.log(rooter3(36))
+console.log(rooter2(25))
+console.log(rooter3(9))
 
 // then show an arrow function with implicit return as well
 
