@@ -76,7 +76,7 @@
 // console.log them to see the difference
 
 
-// Joinging Strings --------------------------------------------------------------------
+// Joining Strings --------------------------------------------------------------------
 
 // make an array variable containing a few different strings
 // join the array with .join(), .join(''), .join(' '), .join(' + ')
