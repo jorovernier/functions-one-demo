@@ -55,7 +55,7 @@ console.log(withParse);
 
 // create a number variable, on the next line convert that variable to a string with the String method (assign it to another variable)
 // when you console.log the 2 variables, they should be different colors
-let myAge = 21;
+let myAge = 22;
 let ageToString = String(myAge);
 console.log(myAge, ageToString);
 // works opposite to the conversion in the second code block in the above section
@@ -84,13 +84,23 @@ console.log(myName.includes('oe'));
 // true
 
 // .startsWith()
-console.log(myName.startsWith('g'));
+console.log(myName.startsWith('J'));
 // false
 
 // .endsWith()
 console.log(myName.endsWith('y'));
 // true
 
+// Additional Functionality with For Loops
+let namesArr = ['Joely', 'Brady', 'Kyle']
+
+for(let i = 0; i < namesArr.length; i++){
+    if(namesArr[i].includes('y')){
+        console.log('Welcome to the cool club!')
+    } else {
+        console.log("Sorry, you aren't welcome.")
+    }
+}
 
 // Trimming Whitespace --------------------------------------------------------------------
 
@@ -149,7 +159,7 @@ console.log(splitComma);
 console.log(splitEmpty);
 
 
-// Joinging Strings --------------------------------------------------------------------
+// Joining Strings --------------------------------------------------------------------
 
 // make an array variable containing a few different strings
 // join the array with .join(), .join(''), .join(' '), .join(' + ')
@@ -234,3 +244,6 @@ console.log(rooter3(9))
 
 const implicit = word => `This arrow function has ${word} return`
 console.log(implicit('implicit'))
+
+const rooter4 = num => Math.sqrt(num)
+console.log(rooter4(16))
